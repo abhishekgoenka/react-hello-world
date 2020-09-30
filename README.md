@@ -75,6 +75,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Common Snippets
 |  Prefix | Method                                              |
 | ------: | --------------------------------------------------- |
-|  `rfce→` | `Create function component`                        |
+|  `rfce→`| `Create function component`                        |
 |  `rce→` | `Create class component`                            |
 |  `imd→` | `import { destructuredModule } from 'module'`       |
+|`rconst→`| `Create constructor`       |
