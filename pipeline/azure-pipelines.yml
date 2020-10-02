@@ -55,5 +55,12 @@ steps:
   inputs:
     containerRegistry: 'docker-service-connection'
     repository: 'react-hello-world'
-    command: 'buildAndPush'
+    # command: 'buildAndPush'
+    command: 'build'
     Dockerfile: '**/Dockerfile'
+
+- task: Docker@2
+  displayName: Logout of Docker Hub
+  inputs:
+    command: logout
+    containerRegistry: 'docker-service-connection'
