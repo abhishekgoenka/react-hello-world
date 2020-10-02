@@ -13,6 +13,14 @@ import ParentComponent from './components/ParentComponent'
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 import Stylesheet from './components/Stylesheet'
+import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table';
+import PureComponentDemo from './components/PureComponent';
+import MemoComp from './components/MemoComp';
+import RefsDemo from './components/RefsDemo';
+import ParentFRInput from './components/ParentFRInput';
 
 function App() {
   return (
@@ -28,7 +36,15 @@ function App() {
       {/* <ParentComponent></ParentComponent> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
-      <Stylesheet primary={true}></Stylesheet>
+      {/* <Stylesheet primary={true}></Stylesheet> */}
+      {/* <Form></Form> */}
+      {/* <LifecycleA></LifecycleA> */}
+      {/* <FragmentDemo></FragmentDemo> */}
+      {/* <Table></Table> */}
+      {/* <PureComponentDemo></PureComponentDemo> */}
+      {/* <MemoComp></MemoComp> */}
+      {/* <RefsDemo></RefsDemo> */}
+      <ParentFRInput></ParentFRInput>
     </div >
   );
 }
