@@ -43,3 +43,10 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'docker-service-connection'
+    repository: 'react-hello-world'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'

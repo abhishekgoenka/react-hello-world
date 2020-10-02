@@ -79,4 +79,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 |  `rpce→`| `Create pure class component`                       |
 |  `rce→` | `Create class component`                            |
 |  `imd→` | `import { destructuredModule } from 'module'`       |
-|`rconst→`| `Create constructor`       |
+|`rconst→`| `Create constructor`                                |
+
+## Docker 
+docker run -p 80:80 --name=App1 myapacheimage
