@@ -7,7 +7,7 @@ function Columns() {
                 Name
             </td>
             <td>
-                Abhishek
+                Abhishek2
             </td>
         </>
     )
