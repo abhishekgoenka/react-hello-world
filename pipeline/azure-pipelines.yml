@@ -9,7 +9,7 @@ variables:
   uiBuild: "$(uiSource)/build"
   BuildNumber: '1.0.0-CI-$(Build.BuildNumber)'
 
-name: 1.0.$(Rev:.r)
+name: 1.0$(Rev:.r)
 
 trigger:
 - master
@@ -20,7 +20,7 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: '12.x'
   displayName: 'Install Node.js'
 
 - script: |
@@ -31,7 +31,7 @@ steps:
 - task: ArchiveFiles@2
   displayName: Archive
   inputs:
-    rootFolderOrFile: '"$(uiBuild)"'
+    rootFolderOrFile: '$(uiBuild)'
     includeRootFolder: true
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
