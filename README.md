@@ -94,8 +94,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 > sudo apt  install docker-compose
 
 ### Pull image from registry and start
-> docker pull abhishek1950/react-hello-world:11
-> docker run -p 80:80 abhishek1950/react-hello-world:11
+> docker pull abhishek1950/react-hello-world
+
+> docker run -p 80:80 abhishek1950/react-hello-world
 
 ### URL to use
 http://localhost/
