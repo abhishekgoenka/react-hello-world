@@ -81,5 +81,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 |  `imd→` | `import { destructuredModule } from 'module'`       |
 |`rconst→`| `Create constructor`                                |
 
-## Docker 
-docker run -p 80:80 --name=App1 myapacheimage
+## Dockerize the App 
+
+
+### To start the containers
+> docker-compose up
+
+### To stop the containers
+> docker-compose down
+
+### Install docker compose if not already installed
+> sudo apt  install docker-compose
+
+### Pull image from registry and start
+> docker pull abhishek1950/react-hello-world:11
+> docker run -p 80:80 abhishek1950/react-hello-world:11
+
+### URL to use
+http://localhost/
+
