@@ -55,8 +55,8 @@ steps:
   inputs:
     containerRegistry: 'docker-service-connection'
     repository: 'react-hello-world'
-    # command: 'buildAndPush'
-    command: 'build'
+    command: 'buildAndPush'
+    # command: 'build'
     Dockerfile: '**/Dockerfile'
 
 - task: Docker@2
