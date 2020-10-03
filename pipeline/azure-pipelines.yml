@@ -68,8 +68,8 @@ steps:
     command: logout
     containerRegistry: 'docker-service-connection'
 
-- task: GitTag@5
-  inputs:
-    workingdir: '$(SYSTEM.DEFAULTWORKINGDIRECTORY)'
-    tagEmail: 'govindkaran@gmail.com'
-    tag: $(tag)
+# - task: GitTag@5
+#   inputs:
+#     workingdir: '$(SYSTEM.DEFAULTWORKINGDIRECTORY)'
+#     tagEmail: 'govindkaran@gmail.com'
+#     tag: $(tag)
