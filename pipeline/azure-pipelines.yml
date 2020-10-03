@@ -54,7 +54,7 @@ steps:
   displayName: Build and Push
   inputs:
     containerRegistry: 'docker-service-connection'
-    repository: 'react-hello-world'
+    repository: 'abhishek1950/react-hello-world'
     command: 'buildAndPush'
     # command: 'build'
     Dockerfile: '**/Dockerfile'
