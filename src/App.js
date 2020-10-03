@@ -21,6 +21,13 @@ import PureComponentDemo from './components/PureComponent';
 import MemoComp from './components/MemoComp';
 import RefsDemo from './components/RefsDemo';
 import ParentFRInput from './components/ParentFRInput';
+import PortalsDemo from './components/PortalsDemo';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import UserContextExample from './components/UserContextExample';
+import { UserProvider } from './components/UserContext';
 
 function App() {
   return (
@@ -44,7 +51,20 @@ function App() {
       {/* <PureComponentDemo></PureComponentDemo> */}
       {/* <MemoComp></MemoComp> */}
       {/* <RefsDemo></RefsDemo> */}
-      <ParentFRInput></ParentFRInput>
+      {/* <ParentFRInput></ParentFRInput> */}
+      {/* <PortalsDemo></PortalsDemo> */}
+      {/* <ErrorBoundary>
+        <Hero name="Superman"></Hero>
+        <Hero name="Batman"></Hero>
+        <Hero name=""></Hero>
+      </ErrorBoundary> */}
+      {/* <ClickCounter></ClickCounter> */}
+      {/* <HoverCounter></HoverCounter> */}
+
+      <UserProvider value="abhishek">
+        <UserContextExample></UserContextExample>
+      </UserProvider>
+
     </div >
   );
 }
