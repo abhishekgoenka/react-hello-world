@@ -8,6 +8,7 @@ variables:
   uiSource: "."
   uiBuild: "$(uiSource)/build"
   BuildNumber: '1.0.0-CI-$(Build.BuildNumber)'
+  tag: '$(Build.BuildNumber)'
 
 name: 1.0$(Rev:.r)
 
@@ -57,7 +58,9 @@ steps:
     repository: 'abhishek1950/react-hello-world'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: latest
+    tags: |
+      $(tag)
+      latest
 
 - task: Docker@2
   displayName: Logout of Docker Hub
