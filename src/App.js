@@ -28,6 +28,10 @@ import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import UserContextExample from './components/UserContextExample';
 import { UserProvider } from './components/UserContext';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
+import CounterHook from './components/hooks/CounterHook';
+import CounterHook1 from './components/hooks/CounterHook1';
 
 function App() {
   return (
@@ -61,10 +65,14 @@ function App() {
       {/* <ClickCounter></ClickCounter> */}
       {/* <HoverCounter></HoverCounter> */}
 
-      <UserProvider value="abhishek">
+      {/* <UserProvider value="abhishek">
         <UserContextExample></UserContextExample>
-      </UserProvider>
+      </UserProvider> */}
 
+      {/* <PostList></PostList> */}
+      {/* <PostForm></PostForm> */}
+      {/* <CounterHook></CounterHook> */}
+      <CounterHook1></CounterHook1>
     </div >
   );
 }
