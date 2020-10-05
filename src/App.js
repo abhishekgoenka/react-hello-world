@@ -32,6 +32,7 @@ import PostList from './components/PostList';
 import PostForm from './components/PostForm';
 import CounterHook from './components/hooks/CounterHook';
 import CounterHook1 from './components/hooks/CounterHook1';
+import InvervalHoolCounter from './components/hooks/InvervalHoolCounter';
 
 function App() {
   return (
@@ -72,7 +73,8 @@ function App() {
       {/* <PostList></PostList> */}
       {/* <PostForm></PostForm> */}
       {/* <CounterHook></CounterHook> */}
-      <CounterHook1></CounterHook1>
+      {/* <CounterHook1></CounterHook1> */}
+      <InvervalHoolCounter></InvervalHoolCounter>
     </div >
   );
 }
