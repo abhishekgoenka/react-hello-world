@@ -33,6 +33,7 @@ import PostForm from './components/PostForm';
 import CounterHook from './components/hooks/CounterHook';
 import CounterHook1 from './components/hooks/CounterHook1';
 import InvervalHoolCounter from './components/hooks/InvervalHoolCounter';
+import DataFatching from './components/hooks/DataFatching';
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
       {/* <PostForm></PostForm> */}
       {/* <CounterHook></CounterHook> */}
       {/* <CounterHook1></CounterHook1> */}
-      <InvervalHoolCounter></InvervalHoolCounter>
+      {/* <InvervalHoolCounter></InvervalHoolCounter> */}
+      <DataFatching></DataFatching>
     </div >
   );
 }
