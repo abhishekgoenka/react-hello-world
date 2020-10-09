@@ -35,6 +35,7 @@ import CounterHook1 from './components/hooks/CounterHook1';
 import InvervalHoolCounter from './components/hooks/InvervalHoolCounter';
 import DataFatching from './components/hooks/DataFatching';
 import CounterReducer from './components/hooks/CounterReducer';
+import CounterMemoHook from './components/hooks/CounterMemoHook';
 
 function App() {
   return (
@@ -78,7 +79,8 @@ function App() {
       {/* <CounterHook1></CounterHook1> */}
       {/* <InvervalHoolCounter></InvervalHoolCounter> */}
       {/* <DataFatching></DataFatching> */}
-      <CounterReducer></CounterReducer>
+      {/* <CounterReducer></CounterReducer> */}
+      <CounterMemoHook></CounterMemoHook>
     </div >
   );
 }
