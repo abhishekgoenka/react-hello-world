@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { Greet } from './components/Greet'
 import Welcome from './components/Welcome'
@@ -36,51 +35,55 @@ import InvervalHoolCounter from './components/hooks/InvervalHoolCounter';
 import DataFatching from './components/hooks/DataFatching';
 import CounterReducer from './components/hooks/CounterReducer';
 import CounterMemoHook from './components/hooks/CounterMemoHook';
+import InputRefHook from './components/hooks/InputRefHook';
+import { DocTitleCustomHook } from './components/hooks/DocTitleCustomHook';
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet name="abhishek" hero="superman"></Greet> */}
-      {/* <Welcome name="abhishek">Some child text</Welcome> */}
-      {/* <Hello Name="abhishek" heroName="batman"><p>this is child</p></Hello> */}
-      {/* <Message></Message> */}
-      {/* <Counter></Counter> */}
-      {/* <FunctionClick></FunctionClick> */}
-      {/* <ClassClick></ClassClick> */}
-      {/* <EventBind></EventBind> */}
-      {/* <ParentComponent></ParentComponent> */}
-      {/* <UserGreeting></UserGreeting> */}
-      {/* <NameList></NameList> */}
-      {/* <Stylesheet primary={true}></Stylesheet> */}
-      {/* <Form></Form> */}
-      {/* <LifecycleA></LifecycleA> */}
-      {/* <FragmentDemo></FragmentDemo> */}
-      {/* <Table></Table> */}
-      {/* <PureComponentDemo></PureComponentDemo> */}
-      {/* <MemoComp></MemoComp> */}
-      {/* <RefsDemo></RefsDemo> */}
-      {/* <ParentFRInput></ParentFRInput> */}
-      {/* <PortalsDemo></PortalsDemo> */}
-      {/* <ErrorBoundary>
+      <Greet name="abhishek" hero="superman"></Greet>
+      <Welcome name="abhishek">Some child text</Welcome>
+      <Hello Name="abhishek" heroName="batman"><p>this is child</p></Hello>
+      <Message></Message>
+      <Counter></Counter>
+      <FunctionClick></FunctionClick>
+      <ClassClick></ClassClick>
+      <EventBind></EventBind>
+      <ParentComponent></ParentComponent>
+      <UserGreeting></UserGreeting>
+      <NameList></NameList>
+      <Stylesheet primary={true}></Stylesheet>
+      <Form></Form>
+      <LifecycleA></LifecycleA>
+      <FragmentDemo></FragmentDemo>
+      <Table></Table>
+      <PureComponentDemo></PureComponentDemo>
+      <MemoComp></MemoComp>
+      <RefsDemo></RefsDemo>
+      <ParentFRInput></ParentFRInput>
+      <PortalsDemo></PortalsDemo>
+      <ErrorBoundary>
         <Hero name="Superman"></Hero>
         <Hero name="Batman"></Hero>
-        <Hero name=""></Hero>
-      </ErrorBoundary> */}
-      {/* <ClickCounter></ClickCounter> */}
-      {/* <HoverCounter></HoverCounter> */}
+        {/* <Hero name=""></Hero> */}
+      </ErrorBoundary>
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
 
-      {/* <UserProvider value="abhishek">
+      <UserProvider value="abhishek">
         <UserContextExample></UserContextExample>
-      </UserProvider> */}
+      </UserProvider>
 
-      {/* <PostList></PostList> */}
-      {/* <PostForm></PostForm> */}
-      {/* <CounterHook></CounterHook> */}
-      {/* <CounterHook1></CounterHook1> */}
-      {/* <InvervalHoolCounter></InvervalHoolCounter> */}
-      {/* <DataFatching></DataFatching> */}
-      {/* <CounterReducer></CounterReducer> */}
+      <PostList></PostList>
+      <PostForm></PostForm>
+      <CounterHook></CounterHook>
+      <CounterHook1></CounterHook1>
+      <InvervalHoolCounter></InvervalHoolCounter>
+      <DataFatching></DataFatching>
+      <CounterReducer></CounterReducer>
       <CounterMemoHook></CounterMemoHook>
+      <InputRefHook></InputRefHook>
+      <DocTitleCustomHook></DocTitleCustomHook>
     </div >
   );
 }
