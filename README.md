@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Build Status](https://dev.azure.com/abhishekgoenkapublic/react-hello-world/_apis/build/status/master-ci?branchName=master)](https://dev.azure.com/abhishekgoenkapublic/react-hello-world/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/abhishekgoenkapublic/github-projects/_apis/build/status/react-hello-world-master-ci?branchName=master)](https://dev.azure.com/abhishekgoenkapublic/github-projects/_build/latest?definitionId=1&branchName=master)
 
 ## Available Scripts
 
